@@ -11,6 +11,8 @@ add_executable(se
 	include/lua.h
 	include/lauxlib.h
 	include/lualib.h
+	
+	tests/test.lua
 )
 
 target_link_libraries(se lib/lua54)
